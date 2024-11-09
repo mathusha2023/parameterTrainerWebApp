@@ -6,5 +6,6 @@ void main() async {
   if (!tg.isSupported) {
     throw Exception("Telegram instance does not supported!");
   }
+  tg.expand();
   runApp(const App());
 }

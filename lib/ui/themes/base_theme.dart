@@ -24,7 +24,7 @@ abstract class BaseTheme {
           buttonColor: cardColor, textTheme: ButtonTextTheme.primary),
       appBarTheme: AppBarTheme(
         centerTitle: true,
-        titleTextStyle: TextStyle(fontSize: 24, color: primaryContent),
+        titleTextStyle: TextStyle(fontSize: 26, color: primaryContent),
       ),
       tabBarTheme: TabBarTheme(
         labelStyle: TextStyle(color: primaryAccent, fontSize: 18),

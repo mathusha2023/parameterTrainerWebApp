@@ -15,7 +15,7 @@ class _UnsolvedTasksViewState extends State<UnsolvedTasksView> {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate:
-          const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, childAspectRatio: 1.5),
+          const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
       itemBuilder: (context, i) => const TaskCardWidget(),
       itemCount: tasksCount,
     );
