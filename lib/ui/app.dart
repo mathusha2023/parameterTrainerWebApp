@@ -16,8 +16,8 @@ class App extends StatelessWidget {
       builder: (_, mode, __) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: DarkTheme().themeData,
-          darkTheme: LightTheme().themeData,
+          theme: LightTheme().themeData,
+          darkTheme: DarkTheme().themeData,
           themeMode: mode,
           home: const TasksListPage(),
         );
